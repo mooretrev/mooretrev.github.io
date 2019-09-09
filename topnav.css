@@ -1,17 +1,54 @@
 /* Add a black background color to the top navigation */
+body{
+  background: dimgray;
+  margin: 0;
+  padding: 0;
+  
+}
+
+div{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-size: 50px;
+  margin: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+h2{
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-size: 32px;
+  padding-left: 20px;
+  
+}
+
+p{
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-size: 20px;
+  padding-left: 30px;
+  margin: 0;
+
+}
 .topnav {
-    background-color: #333;
+    background-color: dimgray;
     overflow: hidden;
-  }
+    box-shadow: 0px 0px;
+    box-shadow: 0px -2px 2px inset white;
+    }
   
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 16px;
     text-decoration: none;
     font-size: 17px;
+
   }
   
   /* Change the color of links on hover */
@@ -22,6 +59,120 @@
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: blue;
+    background-color: steelblue;
     color: white;
   }
+
+  .body{
+    background: white;
+  }
+  
+  .footer {
+    background: dimgray;
+    color: #f2f2f2;
+    margin-top: 100px;
+    padding-top: 100px; 
+    float: none;
+
+  }
+
+  .footer h2{
+    text-align: center;
+    margin: 0;
+      padding: 0; 
+  }
+
+  .footer p{
+    text-align: center;
+    margin: 0;
+    padding: 0; 
+  }
+
+  
+  a{
+    text-decoration: none;
+    color: blue;
+  }
+
+  img{
+    max-width:100%;
+    max-height:100%;
+  }
+
+  .professional{
+    background: white;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .professional div{
+    background: white;
+    padding: 0;
+    margin: 0px;
+  }
+
+  .professional img{
+    background: white;
+    padding: 0;
+    margin: 0;
+    
+  }
+
+  div{
+    background: white;
+    padding: 0;
+    margin: 0;
+  }
+
+
+#left{
+  width: 50%;
+  height: 100%;
+  float:left;
+  margin: 0px;
+
+}
+
+#right{
+  width: 50%;
+  height: 50%;  
+  float:left;
+  margin: 0px;
+
+}
+
+  #frame{
+    height: 1000px;
+    width: 100%;
+    margin: 0;
+  padding: 0;
+  }
+
+  #frame_title{
+    width: 50%;
+    height: 100px;
+    background: yellow;
+    float: left;
+    margin: 0;
+  padding: 0;
+  }
+
+  #frame_picture{
+    width: 50%;
+    float: left;
+    background: blue;
+    margin: 0;
+  padding: 0;
+  }
+
+  #frame_text{
+    width: 50%;
+    height: 100%;
+    float: right;
+    background: red;
+    margin: 0;
+  padding: 0;
+  }
+
+  
+
