@@ -70,8 +70,8 @@ p{
   .footer {
     background: dimgray;
     color: #f2f2f2;
-    margin-top: 100px;
-    padding-top: 100px; 
+    margin-top: 0px;
+    padding-top: 0px; 
     float: none;
 
   }
@@ -135,7 +135,7 @@ p{
 
 #right{
   width: 50%;
-  height: 50%;  
+  height: 100%;  
   float:left;
   margin: 0px;
 
