@@ -17,13 +17,16 @@ h1{
   font-size: 50px;
   margin: 0;
   padding: 0;
-  color: rgb(22, 59, 89)
+  color: rgb(22, 59, 89);
+  margin-left: 10px;
 }
 
 h2{
   font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   font-size: 32px;
   padding-left: 20px;
+  color: rgb(231, 142, 108);
+  background-color: rgb(22, 59, 89);
 
 }
 
@@ -32,6 +35,7 @@ p{
   font-size: 20px;
   padding-left: 30px;
   margin: 0;
+  color: white;
 
 }
 
