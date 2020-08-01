@@ -10,14 +10,15 @@ body{
     background-color: rgb(32,35,40) ;
 }
 
-#name {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+.name{
+    /* position: absolute; */
+    /* top: 50%;
+    left: 50%; */
     transform: translate(-50%, -50%);
     stroke-linecap: square;
-    fill: rgb(32,35,40); 
-    animation: fill-anim 1s ease forwards 3s;
+    fill: white; 
+    /* animation: fill-anim 1s ease forwards 3s; */
+
 }
 
 #name path{
