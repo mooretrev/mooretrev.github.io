@@ -5,6 +5,20 @@
     flex-wrap: wrap;
   }
 
+  .flex-container h2{
+    padding-top: 2%;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+  }
+
+  .flex-container h3{
+    padding-top: 2%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+  }
+
   .card {
     box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
     transition: 0.3s;

@@ -1,5 +1,6 @@
 import {url_parse, getQueryParams} from './url_parsing.js';
 import {loadJSON} from './loadJSON.js';
+import {getTotal} from './getTotal.js';
 
 var json = loadJSON((json) =>{
 
@@ -20,10 +21,9 @@ var json = loadJSON((json) =>{
         card.className = 'card';
 
         var lifterRow = createRow();
-        var lifterCell = createCell(lifter);
+        var lifterCell = createNameCell(lifter);
         lifterRow.appendChild(lifterCell);
         card.appendChild(lifterRow);
-
 
         var squat_row = createRow();
         var squat_name = createCell('Squat');
@@ -58,13 +58,20 @@ var json = loadJSON((json) =>{
         dead_row.appendChild(dead3);
         card.appendChild(dead_row);
 
+        var total_row = createRow();
+        var total = "Total: " + getTotal(data[lifter]);
+        var total_cell = createCell(total);
+        total_row.appendChild(total_cell);
+        card.appendChild(total_row);
+
+
+
         flexcontainer.appendChild(card);
     }
     document.body.appendChild(flexcontainer);
-    console.log("done");
 });
 
-const createCell = (data) =>{
+const createNameCell = (data) =>{
     var div = document.createElement('div');
     div.className = 'cell';
     var text = document.createElement('h2');
@@ -73,10 +80,19 @@ const createCell = (data) =>{
     return div;
 }
 
+const createCell = (data) =>{
+    var div = document.createElement('div');
+    div.className = 'cell';
+    var text = document.createElement('h3');
+    text.innerHTML = data;
+    div.appendChild(text);
+    return div;
+}
+
 const createWeightCell = (data) =>{
     var div = document.createElement('div');
     div.className = 'cell';
-    var text = document.createElement('h2');
+    var text = document.createElement('h3');
     text.innerHTML = data.Weight;
     if(data.Sucessful && data.Weight != 'DNA'){
         text.style.color = 'green';
