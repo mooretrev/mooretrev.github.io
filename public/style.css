@@ -52,7 +52,6 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: darkcyan;
     padding: 3%;
     margin: 3%;
 }
