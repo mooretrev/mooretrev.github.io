@@ -1,7 +1,142 @@
 {
     "dates": [
+        "July 7 2020",
         "August 1 2020"
     ],
+    "July 7 2020":{
+        "Trevor":{
+            "Squat":{
+                "Attempt 1":{
+                    "Weight":385,
+                    "Sucessful":true
+                },
+                "Attempt 2":{
+                    "Weight":405,
+                    "Sucessful":false
+                },
+                "Attempt 3":{
+                    "Weight":405,
+                    "Sucessful":false
+                }
+            },
+            "Bench":{
+                "Attempt 1":{
+                    "Weight":275,
+                    "Sucessful":true
+                },
+                "Attempt 2":{
+                    "Weight":295,
+                    "Sucessful":true
+                },
+                "Attempt 3":{
+                    "Weight":315,
+                    "Sucessful":false
+                }
+            },
+            "Deadlift":{
+                "Attempt 1":{
+                    "Weight":385,
+                    "Sucessful":true
+                },
+                "Attempt 2":{
+                    "Weight":405,
+                    "Sucessful":true
+                },
+                "Attempt 3":{
+                    "Weight":425,
+                    "Sucessful":true
+                }
+            }
+        },
+        "Santi":{
+            "Squat":{
+                "Attempt 1":{
+                    "Weight":355,
+                    "Sucessful":true
+                },
+                "Attempt 2":{
+                    "Weight":385,
+                    "Sucessful":true
+                },
+                "Attempt 3":{
+                    "Weight":405,
+                    "Sucessful":false
+                }
+            },
+            "Bench":{
+                "Attempt 1":{
+                    "Weight":275,
+                    "Sucessful":true
+                },
+                "Attempt 2":{
+                    "Weight":295,
+                    "Sucessful":false
+                },
+                "Attempt 3":{
+                    "Weight":295,
+                    "Sucessful":false
+                }
+            },
+            "Deadlift":{
+                "Attempt 1":{
+                    "Weight":315,
+                    "Sucessful":true
+                },
+                "Attempt 2":{
+                    "Weight":365,
+                    "Sucessful":true
+                },
+                "Attempt 3":{
+                    "Weight":405,
+                    "Sucessful":true
+                }
+            }
+        },
+        "Hunter":{
+            "Squat":{
+                "Attempt 1":{
+                    "Weight":315,
+                    "Sucessful":true
+                },
+                "Attempt 2":{
+                    "Weight":335,
+                    "Sucessful":true
+                },
+                "Attempt 3":{
+                    "Weight":355,
+                    "Sucessful":true
+                }
+            },
+            "Bench":{
+                "Attempt 1":{
+                    "Weight":225,
+                    "Sucessful":true
+                },
+                "Attempt 2":{
+                    "Weight":245,
+                    "Sucessful":false
+                },
+                "Attempt 3":{
+                    "Weight":235,
+                    "Sucessful":false
+                }
+            },
+            "Deadlift":{
+                "Attempt 1":{
+                    "Weight":335,
+                    "Sucessful":true
+                },
+                "Attempt 2":{
+                    "Weight":365,
+                    "Sucessful":true
+                },
+                "Attempt 3":{
+                    "Weight":385,
+                    "Sucessful":false
+                }
+            }
+        }
+    },
     "August 1 2020":{
         "Trevor":{
             "Squat":{

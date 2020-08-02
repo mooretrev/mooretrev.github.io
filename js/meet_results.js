@@ -16,10 +16,13 @@ var json = loadJSON((json) =>{
     flexcontainer.className = 'flex-container';
     
     for(var lifter in data){
+        var card = document.createElement('div');
+        card.className = 'card';
+
         var lifterRow = createRow();
         var lifterCell = createCell(lifter);
         lifterRow.appendChild(lifterCell);
-        flexcontainer.appendChild(lifterRow);
+        card.appendChild(lifterRow);
 
 
         var squat_row = createRow();
@@ -31,7 +34,7 @@ var json = loadJSON((json) =>{
         squat_row.appendChild(sq1);
         squat_row.appendChild(sq2);
         squat_row.appendChild(sq3);
-        flexcontainer.appendChild(squat_row);
+        card.appendChild(squat_row);
 
         var bench_row = createRow();
         var bench_name = createCell('Bench');
@@ -42,7 +45,7 @@ var json = loadJSON((json) =>{
         bench_row.appendChild(ben1);
         bench_row.appendChild(ben2);
         bench_row.appendChild(ben3);
-        flexcontainer.appendChild(bench_row);
+        card.appendChild(bench_row);
 
         var dead_row = createRow();
         var dead_name = createCell('Deadlift');
@@ -53,13 +56,10 @@ var json = loadJSON((json) =>{
         dead_row.appendChild(dead1);
         dead_row.appendChild(dead2);
         dead_row.appendChild(dead3);
-        flexcontainer.appendChild(dead_row);
+        card.appendChild(dead_row);
 
-
-
-
+        flexcontainer.appendChild(card);
     }
-    console.log(flexcontainer);
     document.body.appendChild(flexcontainer);
     console.log("done");
 });
