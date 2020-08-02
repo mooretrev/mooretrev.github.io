@@ -7,13 +7,10 @@ var meets = document.getElementById('meets');
 loadJSON((data)=>{
     var json = JSON.parse(data);
     var dates = json.dates;
-    console.log(dates.length);
     for(var i = 0; i < dates.length; i++){
         var anchor = document.createElement('a');
-        anchor.href = './meet_results.html?' + dates[i];
-        var date = document.createElement("h2");
-        date.innerHTML = dates[i];
-        anchor.appendChild(date);
+        anchor.href = './meet_results.html?';
+        anchor.innerText = dates[i];
         meets.appendChild(anchor);
     }
 })
