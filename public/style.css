@@ -16,6 +16,7 @@ h1{
     padding-top: 3%;
     text-align: center;
     color: white;
+    font-size: 60px;
 }
 
 h2{
@@ -52,65 +53,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding: 3%;
     margin: 3%;
-}
-
-  #name {
-    stroke-linecap: square;
-    fill: rgb(32,35,40); 
-    animation: fill-anim 1s ease forwards 3s;
-}
-
-#name path{
-    stroke: white;
-    stroke-width: 5;
-}
-
-#name path:nth-child(1){
-    stroke-dasharray: 363.0938415527344;
-    stroke-dashoffset: 363.0938415527344;
-    animation: line-anim 2s ease forwards;
-
-}
-#name path:nth-child(2){
-    stroke-dasharray: 232.69798278808594;
-    stroke-dashoffset: 232.69798278808594;
-    animation: line-anim 2s ease forwards .3s;
-}
-#name path:nth-child(3){
-    stroke-dasharray: 437.616943359375;
-    stroke-dashoffset: 437.616943359375;
-    animation: line-anim 2s ease forwards .6s;
-}
-#name path:nth-child(4){
-    stroke-dasharray: 321.1700439453125;
-    stroke-dashoffset: 321.1700439453125;
-    animation: line-anim 2s ease forwards .9s;
-}
-#name path:nth-child(5){
-    stroke-dasharray: 398.1834716796875;
-    stroke-dashoffset: 398.1834716796875;
-    animation: line-anim 2s ease forwards 1.2s;
-}
-#name path:nth-child(6){
-    stroke-dasharray: 232.69815063476562;
-    stroke-dashoffset: 232.69815063476562;
-    animation: line-anim 2s ease forwards 1.5s;
-}
-
-@keyframes line-anim{
-    to{
-        stroke-dashoffset: 0;
-        /* stroke-dasharray: 0; */
-    }
-}
-
-@keyframes fill-anim{
-    from{
-        fill: rgb(32,35,40); 
-   }
-    to{
-        fill: white;
-    }
 }

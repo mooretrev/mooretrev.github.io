@@ -12,7 +12,6 @@ var json = loadJSON((json) =>{
 
     let data = JSON.parse(json)[meet_date]
 
-    // var input_div = document.getElementById('results');
     var flexcontainer = document.createElement('div');
     flexcontainer.className = 'flex-container';
     
@@ -108,4 +107,3 @@ const createRow = () =>{
     div.className = 'row';
     return div;
 }
-
